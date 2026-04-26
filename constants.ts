@@ -36,7 +36,7 @@ export const PROJECTS = [
     image: "/portfolio.png",
     title: "Portfolio",
     description: "A personal portfolio website showcasing projects and skills.",
-    url: "https://lijomannanal.github.io/portfolio",
+    url: "https://lijothomas.com",
     githubLink: "https://github.com/lijomannanal/portfolio",
     tags: ["Next.js 15", "TypeScript", "Tailwind CSS", "Shadcn UI"],
   },
