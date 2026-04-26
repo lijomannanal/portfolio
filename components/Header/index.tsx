@@ -11,7 +11,7 @@ export default function Header(props: {
 }) {
   const pathname = usePathname();
   return (
-    <div className="sticky top-0 py-4 z-998 bg-background border-b px-4 lg:px-6">
+    <div className="sticky top-0 pb-4 z-998 bg-background px-4 lg:px-6">
       <ToggleTheme />
       <nav className="flex items-center justify-end lg:hidden">
         {props.sidebarOpen ? (

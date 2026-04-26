@@ -30,9 +30,9 @@ export default function ProfileCard() {
     setIsDownloading(false);
   };
   return (
-    <aside className="flex flex-col items-center text-center sticky top-15 left-10 3xl:w-[380px] w-[300px]">
+    <aside className="flex flex-col items-center text-center sticky top-20 left-10 w-full">
       <div
-        className="h-[240px] 3xl:h-[340px]"
+        className="h-[260px] 3xl:h-[330px]"
         style={{ position: "relative", width: "100%" }}
       >
         <Image src="/profile.png" alt="Profile" fill className="rounded-xl" />

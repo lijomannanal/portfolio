@@ -61,10 +61,10 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               >
                 <div
                   onClick={() => setSidebarOpen(false)}
-                  className={`text-2xl items-center ${
+                  className={`text-2xl items-center px-2 py-1  ${
                     pathname == menu.href
-                      ? "text-background bg-primary font-medium px-2 py-1 rounded-md"
-                      : "text-primary font-medium px-2 py-1 rounded-md"
+                      ? "text-primary font-bold"
+                      : "text-secondary font-medium"
                   }`}
                 >
                   {menu.name}
